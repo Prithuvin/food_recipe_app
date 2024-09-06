@@ -16,7 +16,7 @@ class CustomVideoCard extends StatelessWidget {
       child: Column(
         children: [
           Container(
-            height: 180,
+            height: 179,
             width: 290,
             decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(20),
