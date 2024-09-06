@@ -1,0 +1,47 @@
+class DummyDb {
+  List trendiingNowList=[
+    {
+    "imageurl":"https://images.pexels.com/photos/7144362/pexels-photo-7144362.jpeg?auto=compress&cs=tinysrgb&w=600",
+     "rating":"3.5",
+      "duration":"20:00",
+       "username":"jack",
+ "title":"pancakes",
+    },
+      {
+    "imageurl":"https://images.pexels.com/photos/7144362/pexels-photo-7144362.jpeg?auto=compress&cs=tinysrgb&w=600",
+     "rating":"4.5",
+      "duration":"20:00",
+       "username":"jack",
+ "title":"pancakes",
+    },
+      {
+    "imageurl":"https://images.pexels.com/photos/7144362/pexels-photo-7144362.jpeg?auto=compress&cs=tinysrgb&w=600",
+     "rating":"3.5",
+      "duration":"20:00",
+       "username":"jack",
+ "title":"pancakes",
+    },
+      {
+    "imageurl":"https://images.pexels.com/photos/7144362/pexels-photo-7144362.jpeg?auto=compress&cs=tinysrgb&w=600",
+     "rating":"3.5",
+      "duration":"20:00",
+       "username":"jack",
+ "title":"pancakes",
+    },
+      {
+    "imageurl":"https://images.pexels.com/photos/7144362/pexels-photo-7144362.jpeg?auto=compress&cs=tinysrgb&w=600",
+     "rating":"3.5",
+      "duration":"20:00",
+       "username":"jack",
+ "title":"pancakes",
+    },
+      {
+    "imageurl":"https://images.pexels.com/photos/7144362/pexels-photo-7144362.jpeg?auto=compress&cs=tinysrgb&w=600",
+     "rating":"3.5",
+      "duration":"20:00",
+       "username":"jack",
+ "title":"pancakes",
+    }
+  ];
+
+}
