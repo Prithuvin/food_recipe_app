@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:food_recipe_app/view/CreateRecipe_screen/CreateRecipe_screen.dart';
+import 'package:food_recipe_app/view/Notification_screen/Notification_screen.dart';
+import 'package:food_recipe_app/view/Profile_screen/Profile_Screen.dart';
+import 'package:food_recipe_app/view/bookmark_screen/bookmarkscreen.dart';
 import 'package:food_recipe_app/view/home_screen/home_screen..dart';
-
 
 class BottomnavbarScreen extends StatefulWidget {
   const BottomnavbarScreen({super.key});
@@ -13,15 +16,9 @@ class _BottomnavbarScreenState extends State<BottomnavbarScreen> {
   int selectedTab = 0;
   List screen = [
     HomeScreen(),
-    Container(
-      color: Colors.green,
-    ),
-    Container(
-      color: Colors.blue,
-    ),
-    Container(
-      color: Colors.yellow,
-    )
+    Bookmarkscreen(),
+    NotificationScreen(),
+    ProfileScreen()
   ];
   @override
   Widget build(BuildContext context) {
@@ -30,7 +27,10 @@ class _BottomnavbarScreenState extends State<BottomnavbarScreen> {
       floatingActionButton: FloatingActionButton(
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(60)),
         backgroundColor: Colors.red,
-        onPressed: () {},
+        onPressed: () {
+          Navigator.push(context,
+              MaterialPageRoute(builder: (context) => CreateRecipeScreen()));
+        },
         child: Icon(
           Icons.add,
           color: Colors.white,
